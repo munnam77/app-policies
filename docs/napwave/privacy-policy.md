@@ -6,9 +6,10 @@ permalink: /napwave/privacy-policy/
 
 # Napwave privacy policy
 
+
 Effective 22 November 2026. Applies to the Napwave app for Android (package `app.napwave`).
 
-**Short version:** Napwave has no account, analytics or advertising. It does not collect your data or share it. Your mixes and settings stay on your phone. If you buy Napwave Plus, Google Play handles the purchase and Napwave keeps a small record of it on your phone so Plus keeps working offline.
+**Short version:** Napwave has no account, analytics or advertising. It does not collect your data or share it. Your mixes and settings stay on your phone. If you buy Napwave Plus, Google Play handles the purchase and Napwave keeps a small record of it on your phone so Plus keeps working offline. Google's own Play Billing software, which Napwave includes, talks to Google (see Purchases).
 
 ## What Napwave stores, and where
 
@@ -22,7 +23,7 @@ There is no Napwave account, no sign-in and no Napwave server. We cannot see, re
 
 ## What Napwave collects and shares
 
-Nothing. Napwave has no analytics, advertising, tracking or crash-reporting service, and it sends no data about you to us or to anyone else. It works fully offline. The only network traffic is between Google Play and your phone for purchases, described below.
+Nothing. Napwave has no analytics, advertising, tracking or crash-reporting service, and Napwave's own code sends no data about you to us or to anyone else. It works fully offline. The only network traffic comes from Google Play and Google's Play Billing library, described under Purchases.
 
 ## Permissions
 
@@ -42,7 +43,7 @@ When you share a mix card, Napwave makes an image of the card and a link, and ha
 
 ## Purchases
 
-Napwave Plus is an optional subscription sold through Google Play Billing. Google handles payment, billing and renewal under its own terms and privacy policy. Napwave never sees your card or payment details. Google Play tells Napwave whether the subscription is active, and Napwave keeps the purchase details Google Play provides (product, purchase token, purchase time and state) in a private file on your phone to keep Plus working offline. Napwave has no server and does not send those details anywhere. You can manage or cancel the subscription in Google Play; Napwave's Settings has a shortcut. Clearing Napwave's storage or uninstalling removes the file on your phone; Google keeps its own purchase record under its policy.
+Napwave Plus is an optional subscription sold through Google Play Billing. Google handles payment, billing and renewal under its own terms and privacy policy. Napwave never sees your card or payment details. Google Play tells Napwave whether the subscription is active, and Napwave keeps the purchase details Google Play provides (product, purchase token, purchase time and state) in a private file on your phone to keep Plus working offline. Napwave has no server and does not send those details anywhere. The Google Play Billing library that Napwave includes is Google software: it talks to Google Play and, like other Google Play services libraries, may send its own diagnostic and performance information to Google under Google's privacy policy. Napwave does not receive that information and does not control it. This is the reason the app declares the Android network permissions the library brings with it. You can manage or cancel the subscription in Google Play; Napwave's Settings has a shortcut. Clearing Napwave's storage or uninstalling removes the file on your phone; Google keeps its own purchase record under its policy.
 
 ## Crash reports
 
